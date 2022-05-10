@@ -4,11 +4,11 @@ using System.Text;
 
 namespace UpCastinAndDownCasting_Task
 {
-    class Excel : Iprintable
+    class PDF : Iprintable
     {
         public void PrintFile()
         {
-            Console.WriteLine("Printed Excel");
+            Console.WriteLine(" 2. PDF");
         }
     }
 }

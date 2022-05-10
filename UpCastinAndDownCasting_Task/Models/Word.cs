@@ -4,11 +4,12 @@ using System.Text;
 
 namespace UpCastinAndDownCasting_Task
 {
-    class PDF : Iprintable
+    class Word : Iprintable
     {
         public void PrintFile()
         {
-            Console.WriteLine("Printed PDF");
+            Console.WriteLine(" 1. Word");
+            
         }
     }
 }
